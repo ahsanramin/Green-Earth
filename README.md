@@ -1,16 +1,78 @@
-# React + Vite
+# 🌴 Green Earth - Plant a Tree, Grow a Future
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Green Earth** is a modern, premium SaaS-level web application designed to make reforestation accessible to everyone. Built with React, Vite, and Tailwind CSS v4, it provides a seamless, responsive, and visually stunning user experience.
 
-Currently, two official plugins are available:
+![Green Earth Banner](https://i.ibb.co.com/cSQdg7tf/mango-min.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏠 Homepage - 15+ Premium SaaS Sections
+- **Hero Section**: Gradient background, floating particles, and trust badges.
+- **Featured Section**: Dynamic **Category Filtering** (via REST API), interactive plant grid with hover effects, and a live shopping cart with checkout modal.
+- **About the Campaign**: Split layout with 3D image and impact highlights.
+- **Our Global Impact**: Dark-themed statistics section with glassmorphism.
+- **Top Experts**: Professional profiles with social media links.
+- **How It Works**: Timeline/Step-by-step process.
+- **Why Clients Trust Us**: Security, eco-certification, and review highlights.
+- **Choose Your Plan**: Premium 3-tier pricing section.
+- **Client Testimonials**: Star ratings and verified customer reviews.
+- **Latest Tips & Articles**: Blog preview cards.
+- **Meet the Admin**: Team showcase.
+- **FAQ Section**: Interactive accordion.
+- **CTA Section**: Call to action with gradient background.
+- **Contact Section**: Functional contact form.
+- **Plant a Tree Today**: Donation form.
 
-## Expanding the ESLint configuration
+### 📄 Additional Pages
+- **About Page**: Story, Mission, and Vision sections.
+- **Contact Page**: Address, phone, and a premium contact form.
+- **Blog Page**: A grid of responsive article cards.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 UI/UX Highlights
+- **Premium Design**: Glassmorphism, gradient backgrounds, and smooth hover animations.
+- **100% Responsive**: Optimized for mobile, tablet, and desktop.
+- **Tailwind CSS v4**: Uses the latest `@theme` configuration.
+- **Custom Favicon**: A green tree emoji 🌳.
+- **Custom Scrollbar**: Styled to match the brand.
+- **Advanced Animations**: Floating elements, pulse effects, and smooth transitions.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: [React](https://reactjs.org/) 18.3
+- **Build Tool**: [Vite](https://vitejs.dev/) 5.4
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) 4.0
+- **Routing**: [React Router](https://reactrouter.com/) 6.26
+- **State Management**: React Context API (for Cart)
+- **HTTP Client**: Native Fetch API
+- **API Source**: [Programming Hero Open API](https://openapi.programming-hero.com/)
+
+---
+
+## 📂 Project Structure
+
+```text
+green-earth/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── CartContext.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   └── Blog.jsx
+│   ├── services/
+│   │   └── api.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
